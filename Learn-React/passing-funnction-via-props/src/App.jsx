@@ -8,9 +8,10 @@ function App(){
     return (
         <div>
             <h1>Passing Function via Props</h1>
-            <Button onClick={handleClick} />
+            <button onClick={handleClick}>  Click Here</button>
         </div>
     )
 
 
 } 
+export default App;
